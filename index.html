@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="/src/style.css" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body class="container mx-auto px-4 py-8">
+    <h1 class="text-3xl font-bold">Tailwind Showcase</h1>
+    <div class="container mx-auto my-5 bg-zinc-100 p-4">
+      <h1 class="text-2xl font-bold">Colors and Backgrounds</h1>
+      <div class="grid grid-cols-4 pt-2">
+        <div class="h-24 w-full border-2 border-gray-400 bg-transparent"></div>
+        <div class="h-24 w-full border-2 border-red-400 bg-red-100"></div>
+        <div class="h-24 w-full border-2 border-yellow-400 bg-yellow-100"></div>
+        <div class="h-24 w-full border-2 border-green-400 bg-green-100"></div>
+      </div>
+    </div>
+
+    <div class="container mx-auto my-5 bg-zinc-100 p-4">
+      <div class="grid grid-cols-4">
+        <div class="h-24 w-full border-2 border-gray-400 bg-transparent"></div>
+        <div class="h-24 w-full border-2 border-gray-400 bg-gray-200"></div>
+        <div class="h-24 w-full border-2 border-gray-400 bg-gray-300"></div>
+        <div class="h-24 w-full border-2 border-gray-400 bg-gray-400"></div>
+      </div>
+    </div>
+
+    <div class="container mx-auto my-5 bg-zinc-100 p-4">
+      <p class="text-2xl font-bold">Text</p>
+      <p class="mt-2 text-sm">This is a small text.</p>
+      <p class="text-base">This is a base text.</p>
+      <p class="text-lg">This is a large text.</p>
+      <p class="text-xl">This is an extra large text.</p>
+      <p class="text-3xl">This is a 3x extra large text.</p>
+      <p class="text-4xl">This is a 4x extra large text.</p>
+      <p class="text-5xl">This is a 5x extra large text.</p>
+      <p class="text-8xl">This is a 8x extra large text.</p>
+      <p class="text-9xl">This is a 9x extra large text.</p>
+    </div>
+
+    <div class="container mx-auto my-5 bg-zinc-100 p-4">
+      <p class="text-2xl font-bold">Text Decoration</p>
+      <p class="mt-2 text-lg underline">This is an underlined text.</p>
+      <p class="text-lg line-through">This is a line-through text.</p>
+      <p class="text-lg underline line-through">
+        This is an underlined and line-through text.
+      </p>
+    </div>
+
+    <div class="container mx-auto my-5 bg-zinc-100 p-4">
+      <p class="text-2xl font-bold">Text Alignment</p>
+      <p class="mt-2 text-left text-lg">This is a left-aligned text.</p>
+      <p class="text-center text-lg">This is a center-aligned text.</p>
+      <p class="text-right text-lg">This is a right-aligned text</p>
+    </div>
+
+    <div class="container mx-auto my-5 bg-zinc-100 p-4">
+      <h1 class="text-2xl font-bold">Sizes</h1>
+      <div class="mt-2 grid grid-cols-4">
+        <div
+          class="flex h-24 w-full items-center justify-center border-2 border-gray-400 bg-transparent"
+        >
+          <p class="text-xs">XS</p>
+        </div>
+        <div
+          class="flex h-24 w-full items-center justify-center border-2 border-gray-400 bg-gray-200"
+        >
+          <p class="text-sm">SM</p>
+        </div>
+        <div
+          class="flex h-24 w-full items-center justify-center border-2 border-gray-400 bg-gray-300"
+        >
+          <p class="text-base">BASE</p>
+        </div>
+        <div
+          class="flex h-24 w-full items-center justify-center border-2 border-gray-400 bg-gray-400"
+        >
+          <p class="text-lg">LG</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mx-auto my-5 bg-zinc-100 p-4">
+      <h1 class="text-2xl font-bold">Borders</h1>
+      <div class="mt-2 grid grid-cols-4">
+        <div
+          class="h-24 w-full rounded-sm border-2 border-gray-400 bg-transparent"
+        ></div>
+        <div
+          class="h-24 w-full rounded border-2 border-gray-400 bg-gray-200"
+        ></div>
+        <div
+          class="h-24 w-full rounded-md border-2 border-gray-400 bg-gray-300"
+        ></div>
+        <div
+          class="h-24 w-full rounded-full border-2 border-gray-400 bg-gray-400"
+        ></div>
+      </div>
+    </div>
+
+    <div class="container mx-auto my-5 bg-zinc-100 p-4">
+      <h1 class="text-2xl font-bold">Margin</h1>
+      <div class="m-6 w-auto bg-gray-200">
+        <p>This div has a margin of 1.5rem on all sides.</p>
+      </div>
+      <div class="mx-6 my-12 w-auto bg-gray-200">
+        <p>
+          This div has a horizontal margin of 1.5rem and a vertical margin of
+          3rem.
+        </p>
+      </div>
+      <div class="mb-12 ml-16 mr-8 mt-4 w-auto bg-gray-200">
+        <p>
+          This div has a margin of 1rem on the top, 2rem on the right, 3rem on
+          the bottom, and 4rem on the left.
+        </p>
+      </div>
+      <br />
+      <h1 class="text-2xl font-bold">Padding</h1>
+      <div class="w-auto bg-gray-200 p-6">
+        <p>This div has a padding of 1.5rem on all sides.</p>
+      </div>
+      <div class="w-auto bg-gray-300 px-6 py-12">
+        <p>
+          This div has a horizontal padding of 1.5rem and a vertical padding of
+          3rem.
+        </p>
+      </div>
+      <div class="w-auto bg-gray-400 pb-12 pl-16 pr-8 pt-4">
+        <p>
+          This div has a padding of 1rem on the top, 2rem on the right, 3rem on
+          the bottom, and 4rem on the left.
+        </p>
+      </div>
+
+      <br />
+
+      <h1 class="text-2xl font-bold">Card 1</h1>
+      <div class="h-auto w-auto rounded-md border-2 border-gray-300">
+        <div
+          class="m-5 h-[200px] w-[300px] rounded-md border-gray-200 bg-gray-300"
+        ></div>
+        <div>
+          <p class="ml-5 text-lg font-bold">Card Title</p>
+          <p class="ml-5">
+            This is a basic card example with an image and no flex.
+          </p>
+          <button
+            class="mb-5 ml-5 mt-2 rounded-md bg-blue-500 px-4 py-2 font-bold text-white"
+          >
+            Button
+          </button>
+        </div>
+      </div>
+
+      <br />
+
+      <h1 class="text-2xl font-bold">Card 2</h1>
+      <div class="h-auto w-auto rounded-md border-2 border-gray-300">
+        <div>
+          <p class="m-5 text-lg font-bold">Card Title</p>
+          <p class="my-2 ml-5">
+            This is a basic card example with no image and no flex.
+          </p>
+          <ul class="ml-10 list-disc">
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+          </ul>
+          <button
+            class="mb-5 ml-5 mt-2 rounded-md bg-blue-500 px-4 py-2 font-bold text-white"
+          >
+            Button
+          </button>
+        </div>
+      </div>
+
+      <br />
+
+      <h1 class="text-2xl font-bold">Buttons</h1>
+      <div>
+        <button
+          class="mb-5 mt-2 rounded-md bg-blue-500 px-4 py-2 font-bold text-white"
+        >
+          Button 1
+        </button>
+        <button
+          class="mb-5 mt-2 rounded-3xl bg-green-500 px-4 py-2 font-bold text-white"
+        >
+          Button 2
+        </button>
+        <button
+          class="mb-5 mt-2 rounded-xl bg-red-500 px-4 py-2 font-bold text-white"
+        >
+          Button 3
+        </button>
+      </div>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
